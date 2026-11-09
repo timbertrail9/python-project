@@ -9,7 +9,6 @@ phases:
     commands:
       - echo Test the python application.
       - pip install -r requirements.txt
-      - pip install -U pytest
       - pytest
   build:
     commands:
